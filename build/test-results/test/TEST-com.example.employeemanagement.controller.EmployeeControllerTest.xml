@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.employeemanagement.controller.EmployeeControllerTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2026-06-15T01:49:32.522Z" hostname="MSI" time="2.524">
+  <properties/>
+  <testcase name="getEmployeeById_Found_ReturnHttp200()" classname="com.example.employeemanagement.controller.EmployeeControllerTest" time="0.185"/>
+  <testcase name="getAllEmployees_ReturnHttp200AndJsonList()" classname="com.example.employeemanagement.controller.EmployeeControllerTest" time="0.016"/>
+  <testcase name="addEmployee_Success_ReturnHttp201()" classname="com.example.employeemanagement.controller.EmployeeControllerTest" time="0.061"/>
+  <testcase name="getEmployeeById_NotFound_ReturnHttp404()" classname="com.example.employeemanagement.controller.EmployeeControllerTest" time="0.011"/>
+  <system-out><![CDATA[08:49:32.629 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.example.employeemanagement.controller.EmployeeControllerTest]: EmployeeControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+08:49:32.727 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.example.employeemanagement.EmployeeManagementApplication for test class com.example.employeemanagement.controller.EmployeeControllerTest
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::               (v3.5.15)
+
+08:49:33 [INFO] c.e.e.c.EmployeeControllerTest - Starting EmployeeControllerTest using Java 17.0.18 with PID 25296 (started by ADMIN in D:\class things\java_webService\ss13\EmployeeManagementAPI)
+08:49:33 [DEBUG] c.e.e.c.EmployeeControllerTest - Running with Spring Boot v3.5.15, Spring v6.2.19
+08:49:33 [INFO] c.e.e.c.EmployeeControllerTest - No active profile set, falling back to 1 default profile: "default"
+08:49:34 [INFO] o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+08:49:34 [INFO] o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+08:49:34 [INFO] o.s.t.w.s.TestDispatcherServlet - Completed initialization in 2 ms
+08:49:34 [INFO] c.e.e.c.EmployeeControllerTest - Started EmployeeControllerTest in 1.978 seconds (process running for 2.745)
+08:49:34 [INFO] c.e.e.controller.EmployeeController - GET /api/employees/1 called
+08:49:34 [INFO] c.e.e.controller.EmployeeController - GET /api/employees called
+08:49:35 [INFO] c.e.e.controller.EmployeeController - POST /api/employees called
+08:49:35 [INFO] c.e.e.controller.EmployeeController - GET /api/employees/99 called
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
